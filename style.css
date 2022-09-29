@@ -1,0 +1,325 @@
+/*reseteo css, se hace siempre, saca todo el estilo por defecto de HTML*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*esto es para tener una unidad de medida de 10 px en ves de 16px a partir de ahora, siempre usamos rem mejoramos proporcionalmente la unidad de letra*/
+html { font-size: 62.5%; /* 1 rem= 10px */
+}
+
+
+/*Diseño General de la Pagina*/
+.fondo {background-color: black;
+        font-family: gotham;
+        src: url(font/GOTHAM-MEDIUM.TTF);
+        color: white;
+}
+/*Estilo del header*/
+.header-container{
+    background-color: black;
+    font-size: 16px;
+    width: auto;
+    padding: 20px 0px;
+    align-items: center;   
+    display:flex;
+    justify-content:space-around;
+    position: fixed; 
+}
+
+a{ text-decoration: none;
+    color:white;
+    margin: 10px;
+    padding-left: 40px;
+}
+a:hover{
+    color: #019FC6;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+   }
+
+.section-logo{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-carrito{
+     width: 100%;
+    height: 30px; 
+    display: flex;
+    justify-content:space-around;
+}
+
+.section-logo-derecha{
+     width: 100%;
+    height: 33px; 
+    display: flex;
+    justify-content: right;
+}
+/* Inicio de la pagina */
+.section-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-image{
+/*    width: 100%;
+    height: auto;*/
+    margin: 20px 60px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Titulo General de cada Seccion */
+
+.TITLE1{
+    font-size: 70px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; 
+}
+
+.TITLE2{
+    font-size: 70px;
+    color:#019FC6;
+    display: flex;
+    justify-content: left;  
+}
+.bienvenida{
+    font-size: 30px;
+    color:#019FC6;
+}
+.lineas-azules{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-left: 15%;
+}
+ /* Seccion Productos */
+
+ .section-productos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    padding: 10px 0px;
+    padding-top: 70px;
+}
+
+ /* GRID */
+ .grid-item{
+    border: solid 2px;color: #019FC6;
+    font-size: 16px;
+    font-family: gotham;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.grid-conteiner{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 200px 200px 200px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.imagenes-productos{
+display: flex;
+justify-content: left;
+padding: 20px;
+}
+
+.texto-productos{
+    font-size: 16px;
+    font-family: gotham;
+    color: white;
+}
+
+.grid-conteiner-clientes{
+    display: grid;
+    margin: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 15px;
+
+}
+.grid-item-clientes{
+    border: solid 2px;color: #019FC6;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+ }
+
+.imagenes-logos-clientes{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: auto;
+}
+
+
+/* Seccion Servicios */
+
+ .section-servicios{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 80px;
+ }
+ 
+ .grid-item-servicios{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    
+ }
+
+     .grid-conteiner-servicios{
+        display: grid;
+        padding: 30px;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr;
+        column-gap: 30px;
+        row-gap: 15px;
+    
+    }
+    .compu-joystic-play{
+        justify-content: left;
+        padding: 10px;
+        margin: auto;
+        
+        }
+
+    .titulos-servicios{
+            font-size: 16px;
+            font-family: gotham;
+            color: #019FC6;
+            justify-content: left;
+            position: sticky; 
+    }
+
+  /* Seccion Clientes */
+
+ .section-clientes{
+    width: 100%;
+    height: auto;
+    justify-content: left;
+    padding-top: 70px;
+    display: flex;
+ }
+.text-clientes{
+    font-size: 16px;
+    margin: 2%;
+}
+.image-clientes{
+   width: 75%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   padding: 20px 0px;
+}
+
+ /* Seccion Contactos */
+
+ .section-contacto{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+     
+}
+
+ .image-contacto{
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+ /*footer terminado*/
+
+.footer-container{ 
+    height: 30px;
+    display: flex;
+    justify-content:space-between;
+    text-decoration: none;
+    color: beige;
+    padding: 20px;
+    margin: 20px auto;
+    align-items: center; 
+}
+
+.logo-footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+.ul-footer{  
+    font-size: 15px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-inline: 20PX;
+   }
+    
+   /*mobile*/
+   
+@media only screen and (max-width:450px){
+    .grid-conteiner{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-auto-rows: 200px;   
+} 
+.lineas-azules{
+    display:none;
+}
+.grid-conteiner-clientes{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-auto-rows: 200px;
+
+}
+.grid-item-servicios{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-auto-rows: 200px;
+    }
+
+}
+
+ 
+/*tablet*/
+@media only screen and (min-width:450px) and  (max-width:960px){ 
+    .grid-conteiner{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-auto-rows: 200px;
+    
+}
+.lineas-azules{
+    display:none;
+}
+.grid-conteiner-clientes{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-auto-rows: 200px;
+
+}
+.grid-conteiner-servicios{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-auto-rows: 200px;
+}
+}

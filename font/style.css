@@ -1,0 +1,57 @@
+/*reseteo css, se hace siempre, saca todo el estilo por defecto de HTML*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*esto es para tener una unidad de medida de 10 px en ves de 16px a partir de ahora, siempre usamos rem mejoramos proporcionalmente la unidad de letra*/
+html { font-size: 62.5%; /* 1 rem= 10px */
+
+}
+
+
+/*google font, esto es un comentario*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.parrafo{
+    /*regla css de google font. es el tipo de tipografia*/
+    font-family: 'poppins', sans-serif;
+    /*tipo de letra italica */
+    font-style: italic;
+    /*peso de la tipografia*/
+    font-weight: bold;
+    /*tamaño de la fuente*/
+    font-size: 22px;
+    color: rgb(44, 133, 18);
+    /*para alinear los textos*/
+    text-align: center;
+    /*interlineado*/
+    line-height: 1.6;
+    /*subrayado*/
+    text-decoration: underline;
+    /*fondo de color*/
+    background-color: blue;
+}                   
+.headerr{
+font-family: 'Courier New', Courier, monospace;
+color: blueviolet;
+/*imagen de fondo*/
+background-image: url(logonegro.png);
+/*si quiero o no que se repita la imagen */
+background-repeat:no-repeat;
+/*posicion de la imagen, left top, right center, center center, right bottom, etc. lo mas usado cover y contain */
+background-position: left center;
+/*tamaño de la imagen, 100px 100px, cover, contain, auto, 100% 100%, etc*/
+background-size: 100px 100px;
+}
+.contacting{
+    /*es para poner un borde a la imagen*/
+    border: solid 20px black;
+}
+/*font descargada en mi pc*/
+@font-face {
+    font-family: letra imprac;
+    src: url(Font/Albas\ Sans\ Regular.ttf);
+
+}
