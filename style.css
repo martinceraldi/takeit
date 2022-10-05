@@ -71,12 +71,8 @@ a:hover{
 }
 
 .section-image{
-/*    width: 100%;
-    height: auto;*/
-    margin: 20px 60px;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Titulo General de cada Seccion */
