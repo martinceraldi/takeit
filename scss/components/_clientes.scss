@@ -1,0 +1,21 @@
+ /* Seccion Clientes */
+
+ .section-clientes{
+    width: 100%;
+    height: auto;
+    justify-content: left;
+    padding-top: 70px;
+    display: flex;
+ }
+ .carousel-inner img {
+    width: auto;
+    max-height: 400px;
+}
+
+.carousel-inner{
+ height: 350px;
+}
+.text-clientes{
+    font-size: 16px;
+    margin: 2%;
+}

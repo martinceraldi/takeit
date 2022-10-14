@@ -1,0 +1,118 @@
+/* Seccion Servicios */
+
+.section-servicios{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 80px;
+    .TITLE2{
+        font-size: 70px;
+        color: #019FC6;
+        display: flex;
+        justify-content: left;
+    }
+    .lineas-azules{
+        width: 80%;
+        height: auto;
+        display: flex;
+        margin-left: 15%;
+    }
+}
+
+.grid-conteiner-servicios{
+    display: grid;
+    padding: 30px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    column-gap: 30px;
+    row-gap: 15px;
+    .grid-item-servicios{
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        .compu-joystic-play{
+            justify-content: left;
+            padding: 10px;
+            margin: auto;
+        }
+    .titulos-servicios{
+        font-size: 16px;
+        font-family: gotham;
+        color: #019FC6;
+        justify-content: left;
+        position: sticky;
+        } 
+    }
+}
+
+.titulo-video{
+    color: #019FC6;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+.video-youtube{
+    display: flex;
+    margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.section-servicios{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 80px;
+    .grid-item-servicios{
+                        display: flex;
+                        margin-top: 20px;
+                        justify-content: center;
+                        .grid-conteiner-servicios{
+                                                display: grid;
+                                                padding: 30px;
+                                                margin: auto;
+                                                grid-template-columns: 1fr 1fr 1fr;
+                                                grid-template-rows: 2fr;
+                                                column-gap: 30px;
+                                                row-gap: 15px;
+                                               .compu-joystic-play{
+                                                                    justify-content: left;
+                                                                    padding: 10px;
+                                                                    margin: auto;
+                                                                    .titulos-servicios{
+                                                                                        font-size: 16px;
+                                                                                        font-family: gotham;
+                                                                                        color: #019FC6;
+                                                                                        justify-content: left;
+                                                                                        position: sticky; 
+                                                                                    }
+                                                                 }
+                                                 }
+                        }
+}
+.grid-conteiner-servicios{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-auto-rows: 200px;
+}
+
+
+*/
