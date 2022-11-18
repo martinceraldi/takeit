@@ -23,11 +23,12 @@ html { font-size: 62.5%; /* 1 rem= 10px */
     color:white;
     display: flex;
     justify-content: center;
-    margin-top: 60px; 
+    margin-top: 40px; 
 }
 
 .TITLE2{
     font-size: 70px;
+    padding: 30px;
     color:#019FC6;
     display: flex;
     justify-content: left;  
@@ -42,44 +43,102 @@ html { font-size: 62.5%; /* 1 rem= 10px */
     display: flex;
     margin-left: 15%;
 }
-
+.letra-nav{
+    font-size: 18px;
+    margin-right: 2rem;
+}
+.navbar-brande{
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 18px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+}
    /*mobile*/
    
    @media only screen and (max-width:450px){
     .grid-conteiner{
-        display: grid;
-        grid-template-columns: 400px;
-        grid-auto-rows: 200px;   
-} 
+    display: grid;
+    grid-template-columns: 400px;
+    grid-auto-rows: 200px;   
+    } 
+    .TITLE1{
+        font-size: 16px;
+        margin-top: 40px; 
+    }
+    .bienvenida{ 
+        font-size: 12px; 
+        }
+.TITLE2{
+    padding: 50px;
+    font-size: 20px;
+    }
 .lineas-azules{
     display:none;
-}
-.grid-conteiner-clientes{
-    display: grid;
-    grid-template-columns: 400px;
-    grid-auto-rows: 200px;
-
-}
-.grid-item-servicios{
-    display: grid;
-    grid-template-columns: 400px;
-    grid-auto-rows: 200px;
     }
-
+    .h3-mapa{
+    font-size: 16px;
+    }
+    .info-contacto{
+        font-size: 10px;
+    }
+    .text-clientes{
+        font-size: 5px;
+        margin: 2%;
+    }  
+    .logo-footer{
+        display: none;
+        align-items: center;
+    justify-content: center;
+    }
+.ul-footer{
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    }     
 }
 
- 
 /*tablet*/
-@media only screen and (min-width:450px) and  (max-width:960px){ 
+@media only screen and (min-width:450px) and (max-width:960px){ 
     .grid-conteiner{
         display: grid;
         grid-template-columns: 400px 400px;
-        grid-auto-rows: 200px;
-    
-}
+        grid-auto-rows: 200px; 
+    }
 .lineas-azules{
     display:none;
+    }
+    .TITLE1{
+        font-size: 25px;
+        margin-top: 40px; 
+    }
+    .bienvenida{ 
+        font-size: 20px; 
+        }
+    .TITLE2{
+        padding: 30px;
+        font-size: 25px;
+        color:#019FC6;
+        display: flex;
+        justify-content: left;  
+    }
+    .logo-footer{
+        display: none;
+        align-items: center;
+    justify-content: center;
+    }
+.ul-footer{
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;    
 }
-
-
+.info-contacto{
+    font-size: 20px;
+    }
+    .text-clientes{
+        font-size: 5px;
+        margin: 2%;
+    } 
 }

@@ -7,7 +7,7 @@
 /*esto es para tener una unidad de medida de 10 px en ves de 16px a partir de ahora, siempre usamos rem mejoramos proporcionalmente la unidad de letra*/
 html { font-size: 62.5%; /* 1 rem= 10px */
 }
-
+/*
 
 /*Diseño General de la Pagina*/
 .fondo {background-color: black;
@@ -15,7 +15,7 @@ html { font-size: 62.5%; /* 1 rem= 10px */
         src: url(font/GOTHAM-MEDIUM.TTF);
         color: white;
 }
-/*Estilo del header*/
+/*Estilo del header
 .header-container{
     background-color: black;
     font-size: 16px;
@@ -61,8 +61,8 @@ a:hover{
     height: 33px; 
     display: flex;
     justify-content: right;
-}
-/* Inicio de la pagina */
+}*/
+/* Inicio de la pagina 
 .section-container{
     display: flex;
     justify-content: center;
@@ -74,8 +74,8 @@ a:hover{
     width: 80%;
     margin: 0 auto;
 }
-
-/* Titulo General de cada Seccion */
+*/
+/* Titulo General de cada Seccion 
 
 .TITLE1{
     font-size: 70px;
@@ -100,8 +100,8 @@ a:hover{
     height: auto;
     display: flex;
     margin-left: 15%;
-}
- /* Seccion Productos */
+}*/
+ /* Seccion Productos 
 
  .section-productos{
     width: 100%;
@@ -111,8 +111,8 @@ a:hover{
     padding: 10px 0px;
     padding-top: 70px;
 }
-
- /* GRID */
+*/
+ /* GRID 
  .grid-item{
     border: solid 2px;color: #019FC6;
     font-size: 16px;
@@ -163,9 +163,8 @@ padding: 20px;
     padding: 30px;
     margin: auto;
 }
-
-
-/* Seccion Servicios */
+*/
+/* Seccion Servicios 
 
  .section-servicios{
     width: 100%;
@@ -206,8 +205,8 @@ padding: 20px;
             justify-content: left;
             position: sticky; 
     }
-
-  /* Seccion Clientes */
+*/
+  /* Seccion Clientes 
 
  .section-clientes{
     width: 100%;
@@ -227,8 +226,8 @@ padding: 20px;
    justify-content: center;
    padding: 20px 0px;
 }
-
- /* Seccion Contactos */
+*/
+ /* Seccion Contactos 
 
  .section-contacto{
     width: 100%;
@@ -243,8 +242,8 @@ padding: 20px;
     margin: 0 auto;
     display: flex;
 }
-
- /*footer terminado*/
+*/
+ /*footer terminado
 
 .footer-container{ 
     height: 30px;
@@ -270,8 +269,8 @@ padding: 20px;
     list-style: none;
     margin-inline: 20PX;
    }
-    
-   /*mobile*/
+ */   
+   /*mobile
    
 @media only screen and (max-width:450px){
     .grid-conteiner{
@@ -295,9 +294,9 @@ padding: 20px;
     }
 
 }
-
+*/
  
-/*tablet*/
+/*tablet
 @media only screen and (min-width:450px) and  (max-width:960px){ 
     .grid-conteiner{
         display: grid;
@@ -320,3 +319,5 @@ padding: 20px;
     grid-auto-rows: 200px;
 }
 }
+
+*/
